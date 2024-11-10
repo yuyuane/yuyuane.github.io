@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .msg{
+            border: 1px solid #ccc;
+            background-color: #fff;
+            margin: auto;
+        }
+
+        form{
+            margin:0 auto;
+            
+        }
+        .item{
+            margin: 20px 0 20px 0;
+        }
+        .item label{
+            width: 24%;
+            display: block;
+            float: left;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header-div">
+            <div class="logo">
+                <img src="https://www.thegardenshop.ie/images/logos/6/garden-shop-logo-mini.png" alt="">
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="plants.html">Garden Plants</a></li>
+                    <li  style="font-weight: 600;"><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+        
+        </div>
+        <div class="msg">
+            <!-- make a form -->
+             <form action="" method="post">
+                <div class="item">
+                    <label for="lang">Why contact us?</label>
+                    <select name="reason" id="lang" style="height: 30px;width: 50%;">
+                        <option value="wrong_order">Wrong order</option>
+                        <option value="query_about_product"> query about product</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" style="width: 50%;height: 30px;">
+                </div>
+                <div class="item">
+                    <label for="username">Username:</label>
+                    <input type="text" name="" id="" style="width: 50%;height: 30px;">
+                </div>
+                <div class="item">
+                    <label for="desc">Message:</label>
+                    <textarea name="message" id="" style="width: 50%;height: 120px;"></textarea>
+                </div>
+                <div class="item">
+                    <input type="button" value="submit">
+                </div>
+                
+             </form>
+        </div>
+    </div>
+   
+   
+</body>
+</html>
